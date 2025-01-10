@@ -1,20 +1,13 @@
-<<<<<<< HEAD
-# game_demo
-=======
-# app
+# Game Demo
 
-A new Flutter project.
+This is a project
 
-## Getting Started
+## What's new?
 
-This project is a starting point for a Flutter application.
+- Added character and animation to game demo.
+- Used Getx for state managing including Getx controller for player, player state and bindings to bind controllers to pages.
+- Used clean architect for clean code structure including layers like data, domain, presentation.
 
-A few resources to get you started if this is your first Flutter project:
+## Conclusion
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 5d78867 (okay)
+After spending a day learning and applying brand new technologies to this base project, I've learned a lot. This project is based on a self-taught process, so I hope you won't be too critical of it.
