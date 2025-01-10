@@ -1,0 +1,58 @@
+name: app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Flame
+  flame: ^1.22.0
+  flame_tiled: ^1.21.1
+  json_serializable: ^6.8.0
+
+  # Utils
+  intl: ^0.20.1
+  either_dart: ^1.0.0
+  get: ^4.6.6
+  flutter_svg: ^2.0.10+1
+  image: ^4.2.0
+
+
+dev_dependencies:
+  build_runner: ^2.4.12
+  flutter_gen_runner: ^5.7.0
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/Terrain/
+    - assets/tiles/
+    - assets/images/Main Characters/
+    - assets/images/Main Characters/Pink Man/
+  fonts:
+    - family: HiraginoKakuGothicPro
+      fonts:
+        - asset: assets/fonts/hiragino-kaku-gothic-pro-w3.otf
+          weight: 300
+        - asset: assets/fonts/hiragino-kaku-gothic-pro-w6.otf
+          weight: 600
+
+flutter_gen:
+  output: lib/gen/
+  lineLength: 80
+  integrations:
+    flutter_svg: true
