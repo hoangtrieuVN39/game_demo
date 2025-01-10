@@ -1,6 +1,6 @@
 # Game Demo
 
-This is a project
+This is a game demo project.
 
 ## What's new?
 
